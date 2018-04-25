@@ -78,6 +78,7 @@ public class ReportApplication {
 					fileWriter.write("\n\n");
 				} catch (Exception e) {
 					System.out.println(line);
+					e.printStackTrace();
 				}
 
 			});
